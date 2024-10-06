@@ -1,6 +1,6 @@
 {
   "name": "e_commerce_gql",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -19,5 +19,9 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "author": {
+    "email": "yurash862@gmail.com",
+    "name": "Yurii Shymanskyi"
+  }
 }
