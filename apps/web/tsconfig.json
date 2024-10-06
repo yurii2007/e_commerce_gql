@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/nextjs.json",
+  "extends": "@e_commerce_gql/typescript-config/nextjs.json",
   "compilerOptions": {
     "plugins": [
       {
