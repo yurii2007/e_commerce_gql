@@ -1,5 +1,3 @@
-const { resolve } = require("node:path");
-
 /*
  * This is a custom ESLint configuration for use with
  * internal (bundled by their consumer) libraries

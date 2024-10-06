@@ -5,7 +5,7 @@ const project = resolve(process.cwd(), "tsconfig.json");
 /** @type {import("eslint").Linter.Config} */
 module.exports = {
   extends: ["eslint:recommended", "prettier", "turbo"],
-  plugins: ["only-warn"],
+  plugins: ["only-warn", "@typescript-eslint"],
   settings: {
     "import/resolver": {
       typescript: {
@@ -18,11 +18,22 @@ module.exports = {
       "error",
       {
         ignoreCase: false,
-        ignoreDeclarationSort: false,
+        ignoreDeclarationSort: true,
         ignoreMemberSort: false,
         memberSyntaxSortOrder: ["all", "multiple", "single", "none"],
         allowSeparatedGroups: false,
+
       },
     ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        selector: "interface",
+        format: ["PascalCase"],
+        prefix: ["I"],
+      },
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "error",
   },
 };
