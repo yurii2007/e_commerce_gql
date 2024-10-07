@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@e_commerce_gql/ui": "*",
+    "@e_commerce_gql/math": "*",
+    "dayjs": "^1.11.13",
     "next": "14.2.6",
     "react": "18.3.1",
     "react-dom": "18.3.1"
