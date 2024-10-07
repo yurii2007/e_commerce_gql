@@ -14,9 +14,10 @@
   "devDependencies": {
     "@e_commerce_gql/eslint-config": "*",
     "@e_commerce_gql/typescript-config": "*",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@turbo/gen": "^1.12.4",
-    "@types/node": "^20.11.24",
     "@types/eslint": "^8.56.5",
+    "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",
     "@types/react-dom": "^18.2.19",
     "eslint": "^8.57.0",

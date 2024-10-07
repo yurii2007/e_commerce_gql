@@ -8,6 +8,7 @@
     "react-internal.js"
   ],
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
     "@typescript-eslint/eslint-plugin": "^7.1.0",
     "@typescript-eslint/parser": "^7.1.0",
     "@vercel/style-guide": "^5.2.0",
